@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Tarriflist from './components/Tarriflist/Tarriflist';
+import TarrifList from './components/TariffList/TariffList';
 
 function App() {
 
   return (
    <>
    <div className="log"><div className="text">TELE2</div></div>
-  <Tarriflist />
+  <TarrifList />
    </>
   );
 }
