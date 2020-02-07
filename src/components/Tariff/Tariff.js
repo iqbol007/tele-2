@@ -5,10 +5,10 @@ export default function Tarrif({ tele }) {
   const day = <div className="mon">/День</div>;
   const rub = <div className="rub">₽</div>;
   const price = <div className="price">{tele.price}</div>;
-  const rowming = <>ИНТЕРНЕТ ЗА ГРАНИЦЕЙ</>;
-  const classic = <>Классический</>;
-  const forDevices = <>Интернет для устройств</>;
-  const withOutAmount = <>Без абонентской платы</>;
+  const rowming = 'ИНТЕРНЕТ ЗА ГРАНИЦЕЙ';
+  const classic =  'Классический' ;
+  const forDevices =  'Интернет для устройств' ;
+  const withOutAmount = 'Без абонентской платы' ;
   if (!tele.withOutAmount) {
     return (
       <div className="main">
