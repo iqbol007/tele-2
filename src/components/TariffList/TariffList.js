@@ -1,6 +1,5 @@
 import React from "react";
 import Tariff from "../Tariff/Tariff";
- 
 
 export default function TariffList() {
   const tariffs = [
@@ -198,7 +197,7 @@ export default function TariffList() {
   return (
     <>
       {tariffs.map(o => (
-        <Tariff tele={o} />
+        <Tariff tariff={o} />
       ))}
     </>
   );

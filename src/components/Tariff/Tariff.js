@@ -1,37 +1,37 @@
 import React from "react";
 
-export default function Tarrif({ tele }) {
+export default function Tarrif({ tariff }) {
   const moon = <div className="mon">/Месяц</div>;
   const day = <div className="mon">/День</div>;
   const rub = <div className="rub">₽</div>;
-  const price = <div className="price">{tele.price}</div>;
+  const price = <div className="price">{tariff.price}</div>;
   const rowming = 'ИНТЕРНЕТ ЗА ГРАНИЦЕЙ';
   const classic =  'Классический' ;
   const forDevices =  'Интернет для устройств' ;
   const withOutAmount = 'Без абонентской платы' ;
-  if (!tele.withOutAmount) {
+  if (!tariff.withOutAmount) {
     return (
       <div className="main">
         <div>
           <div className="block-1">
-            <div className="title"> {tele.title}</div>
-            {tele.itsHit && <div className="image-hit"></div>}
+            <div className="title"> {tariff.title}</div>
+            {tariff.itsHit && <div className="image-hit"></div>}
             {price}
             {rub}
-            {tele.forDay ? day : moon}
+            {tariff.forDay ? day : moon}
           </div>
           <div className="block-2">
             <div className="traffic-size">
-              {tele.traffic > 1 ? (
+              {tariff.traffic > 1 ? (
                 <>
-                  <b>{tele.traffic}</b>
+                  <b>{tariff.traffic}</b>
                   <span>ГБ</span>
                 </>
               ) : (
                 <>
-                  {!tele.unlimInternet ? (
+                  {!tariff.unlimInternet ? (
                     <b>
-                      {tele.traffic * 1000}
+                      {tariff.traffic * 1000}
                       <span>МБ</span>
                     </b>
                   ) : (
@@ -41,35 +41,35 @@ export default function Tarrif({ tele }) {
               )}
               <br />
               <span>
-                {tele.socialMediaInclude && <span>+безлимитные</span>}
+                {tariff.socialMediaInclude && <span>+безлимитные</span>}
               </span>
             </div>
-            {tele.socialMediaInclude && <div className="img-icons"></div>}
-            {tele.rowming && rowming}
+            {tariff.socialMediaInclude && <div className="img-icons"></div>}
+            {tariff.rowming && rowming}
           </div>
           <div className="block-3">
             <div className="time">
-              {tele.time !== 0 && (
+              {tariff.time !== 0 && (
                 <>
-                  <b>{tele.time}</b>мин.
+                  <b>{tariff.time}</b>мин.
                 </>
               )}
             </div>
             <div className="withOutLimit">
-              {tele.withOutLimit !== "" && tele.withOutLimit}
+              {tariff.withOutLimit !== "" && tariff.withOutLimit}
             </div>
           </div>
         </div>
         <div className="block-4">
-          {tele.sms !== 0 && <div className="sms">{tele.sms}SMS</div>}
+          {tariff.sms !== 0 && <div className="sms">{tariff.sms}SMS</div>}
         </div>
       </div>
     );
   } else {
     return (
       <div className="withOutAmount">
-        {tele.forDevices && <b>{forDevices}</b>}
-        {tele.classic && <b>{classic}</b>}
+        {tariff.forDevices && <b>{forDevices}</b>}
+        {tariff.classic && <b>{classic}</b>}
         <br />
         {withOutAmount}
       </div>
