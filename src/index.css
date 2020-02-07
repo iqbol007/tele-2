@@ -1,7 +1,13 @@
-
 @font-face {
   font-family: 'CrackMan-Regular';
-  src: url('/src/fonts/CrackMan-Regular.eot') format('embedded-opentype'),  url('/src/fonts/CrackMan-Regular.woff') format('woff'), url('/src/fonts/CrackMan-Regular.ttf')  format('truetype'), url('/src/fonts/CrackMan-Regular.svg') format('svg');
+  src: url('/src/fonts/CrackMan-Regular.eot') format('embedded-opentype'), url('/src/fonts/CrackMan-Regular.woff') format('woff'), url('/src/fonts/CrackMan-Regular.ttf') format('truetype'), url('/src/fonts/CrackMan-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'crack';
+  src: url('/src/fonts/crackman-org.ttf')format(truetype);
   font-weight: normal;
   font-style: normal;
 }
@@ -77,10 +83,10 @@ code {
 }
 
 .log {
-  
+
   background-color: greenyellow;
   font-size: 5em;
-  font-family: 'CrackMan-Regular';
+  font-family: 'crack';
   vertical-align: text-bottom;
   height: 130px;
 }
