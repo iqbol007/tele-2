@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tele-2/static/css/main.024749b1.chunk.css",
-    "main.js": "/tele-2/static/js/main.7fbb7d3e.chunk.js",
-    "main.js.map": "/tele-2/static/js/main.7fbb7d3e.chunk.js.map",
+    "main.js": "/tele-2/static/js/main.3cea3373.chunk.js",
+    "main.js.map": "/tele-2/static/js/main.3cea3373.chunk.js.map",
     "runtime-main.js": "/tele-2/static/js/runtime-main.5826684e.js",
     "runtime-main.js.map": "/tele-2/static/js/runtime-main.5826684e.js.map",
     "static/js/2.f8459bf0.chunk.js": "/tele-2/static/js/2.f8459bf0.chunk.js",
     "static/js/2.f8459bf0.chunk.js.map": "/tele-2/static/js/2.f8459bf0.chunk.js.map",
     "index.html": "/tele-2/index.html",
-    "precache-manifest.5051d4f49bd82ff5ca42716b5c0bedfe.js": "/tele-2/precache-manifest.5051d4f49bd82ff5ca42716b5c0bedfe.js",
+    "precache-manifest.efe04e7b363084d80cb2ca8ac4b28ed4.js": "/tele-2/precache-manifest.efe04e7b363084d80cb2ca8ac4b28ed4.js",
     "service-worker.js": "/tele-2/service-worker.js",
     "static/css/main.024749b1.chunk.css.map": "/tele-2/static/css/main.024749b1.chunk.css.map",
     "static/js/2.f8459bf0.chunk.js.LICENSE": "/tele-2/static/js/2.f8459bf0.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5826684e.js",
     "static/js/2.f8459bf0.chunk.js",
     "static/css/main.024749b1.chunk.css",
-    "static/js/main.7fbb7d3e.chunk.js"
+    "static/js/main.3cea3373.chunk.js"
   ]
 }
