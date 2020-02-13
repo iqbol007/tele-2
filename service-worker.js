@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tele-2/precache-manifest.efe04e7b363084d80cb2ca8ac4b28ed4.js"
+  "/tele-2/precache-manifest.742bd3e256c35e2b49ace259c4952d1c.js"
 );
 
 self.addEventListener('message', (event) => {
