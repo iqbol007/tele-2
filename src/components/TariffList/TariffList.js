@@ -179,7 +179,7 @@ export default function TariffList() {
       title: "Интернет для вещей",
       price: 100,
       withOutLimit: "",
-      text: "На остальные номера в В России",
+      text: "На остальные номера  В России",
       time: 30,
       sms: 100,
       unlimOnRus: false,
