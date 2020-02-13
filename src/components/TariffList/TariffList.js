@@ -197,7 +197,7 @@ export default function TariffList() {
   return (
     <>
       {tariffs.map(o => (
-        <Tariff tariff={o} />
+        <Tariff key={o.id} tariff={o} />
       ))}
     </>
   );
